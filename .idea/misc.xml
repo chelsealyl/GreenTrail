@@ -5,8 +5,14 @@
       <map>
         <entry key="app/src/main/res/drawable/mainpage_button.xml" value="0.176" />
         <entry key="app/src/main/res/drawable/mainpage_buttonbackground.xml" value="0.178" />
-        <entry key="app/src/main/res/layout/activity_login.xml" value="0.19972826086956522" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1721014492753623" />
+        <entry key="app/src/main/res/layout/activity_assignment.xml" value="0.2800840073737545" />
+        <entry key="app/src/main/res/layout/activity_forumfragment.xml" value="0.13496376811594202" />
+        <entry key="app/src/main/res/layout/activity_homefragment.xml" value="0.13496376811594202" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.24026398589645606" />
+        <entry key="app/src/main/res/layout/activity_mapfragment.xml" value="0.13496376811594202" />
+        <entry key="app/src/main/res/layout/activity_profilefragment.xml" value="0.13496376811594202" />
+        <entry key="app/src/main/res/menu/bottombutton_menu.xml" value="0.13425925925925927" />
       </map>
     </option>
   </component>
