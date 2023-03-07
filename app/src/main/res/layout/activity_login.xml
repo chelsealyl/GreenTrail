@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#73D5B2"
+    android:background="#90D9C0"
     tools:context=".LoginActivity">
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -78,7 +78,7 @@
         app:counterMaxLength="23"
         app:endIconMode="clear_text"
         app:helperText="zID@ad.unsw.edu.au"
-        app:helperTextTextColor="@color/purple_700"
+        app:helperTextTextColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/constraintLayout">
