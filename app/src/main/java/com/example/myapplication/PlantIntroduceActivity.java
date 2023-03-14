@@ -4,11 +4,11 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class MonmentsFragment extends AppCompatActivity {
+public class PlantIntroduceActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_monmentsfragment);
+        setContentView(R.layout.activity_plant_introduce);
     }
 }
