@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.myapplication.app-mergeDebugResources-39:/values-en-rAU/values-en-rAU.xml",
+            "outputFile": "com.example.myapplication.app-mergeDebugResources-41:/values-en-rAU/values-en-rAU.xml",
             "map": [
                 {
                     "source": "/Users/billbai/.gradle/caches/transforms-3/45b3b0cb8a82c4f04a29437990cd35c9/transformed/appcompat-1.6.1/res/values-en-rAU/values-en-rAU.xml",

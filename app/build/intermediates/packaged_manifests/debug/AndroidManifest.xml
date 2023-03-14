@@ -27,6 +27,27 @@
         android:testOnly="true"
         android:theme="@style/Theme.MyApplication" >
         <activity
+            android:name="com.example.myapplication.ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.myapplication.search_plant_Activity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.myapplication.WeatherActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.myapplication.Signup2"
+            android:exported="false" />
+        <activity
+            android:name="com.example.myapplication.Signup"
+            android:exported="false" />
+        <activity
+            android:name="com.example.myapplication.MyplantsFragment"
+            android:exported="false" />
+        <activity
+            android:name="com.example.myapplication.MonmentsFragment"
+            android:exported="false" />
+        <activity
             android:name="com.example.myapplication.ProfileFragment"
             android:exported="false" />
         <activity
@@ -53,6 +74,24 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <provider
+            android:name="com.squareup.picasso.PicassoProvider"
+            android:authorities="com.example.myapplication.com.squareup.picasso"
+            android:exported="false" />
+
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
 
         <provider
             android:name="androidx.startup.InitializationProvider"

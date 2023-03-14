@@ -22,7 +22,7 @@
 15-->[androidx.core:core:1.9.0] /Users/billbai/.gradle/caches/transforms-3/6572e896cf691f4b13ad10c561cb3105/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
 16
 17    <application
-17-->/Users/billbai/Documents/GitHub/GreenTrail/app/src/main/AndroidManifest.xml:6:5-43:19
+17-->/Users/billbai/Documents/GitHub/GreenTrail/app/src/main/AndroidManifest.xml:6:5-68:19
 18        android:allowBackup="true"
 18-->/Users/billbai/Documents/GitHub/GreenTrail/app/src/main/AndroidManifest.xml:7:9-35
 19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -45,92 +45,166 @@
 28-->/Users/billbai/Documents/GitHub/GreenTrail/app/src/main/AndroidManifest.xml:14:9-51
 29        <activity
 29-->/Users/billbai/Documents/GitHub/GreenTrail/app/src/main/AndroidManifest.xml:16:9-18:40
-30            android:name="com.example.myapplication.ProfileFragment"
+30            android:name="com.example.myapplication.ProfileActivity"
 30-->/Users/billbai/Documents/GitHub/GreenTrail/app/src/main/AndroidManifest.xml:17:13-44
 31            android:exported="false" />
 31-->/Users/billbai/Documents/GitHub/GreenTrail/app/src/main/AndroidManifest.xml:18:13-37
 32        <activity
 32-->/Users/billbai/Documents/GitHub/GreenTrail/app/src/main/AndroidManifest.xml:19:9-21:40
-33            android:name="com.example.myapplication.MapFragment"
-33-->/Users/billbai/Documents/GitHub/GreenTrail/app/src/main/AndroidManifest.xml:20:13-40
+33            android:name="com.example.myapplication.search_plant_Activity"
+33-->/Users/billbai/Documents/GitHub/GreenTrail/app/src/main/AndroidManifest.xml:20:13-50
 34            android:exported="false" />
 34-->/Users/billbai/Documents/GitHub/GreenTrail/app/src/main/AndroidManifest.xml:21:13-37
 35        <activity
 35-->/Users/billbai/Documents/GitHub/GreenTrail/app/src/main/AndroidManifest.xml:22:9-24:40
-36            android:name="com.example.myapplication.ForumFragment"
-36-->/Users/billbai/Documents/GitHub/GreenTrail/app/src/main/AndroidManifest.xml:23:13-42
+36            android:name="com.example.myapplication.WeatherActivity"
+36-->/Users/billbai/Documents/GitHub/GreenTrail/app/src/main/AndroidManifest.xml:23:13-44
 37            android:exported="false" />
 37-->/Users/billbai/Documents/GitHub/GreenTrail/app/src/main/AndroidManifest.xml:24:13-37
 38        <activity
 38-->/Users/billbai/Documents/GitHub/GreenTrail/app/src/main/AndroidManifest.xml:25:9-27:40
-39            android:name="com.example.myapplication.HomeFragment"
-39-->/Users/billbai/Documents/GitHub/GreenTrail/app/src/main/AndroidManifest.xml:26:13-41
+39            android:name="com.example.myapplication.Signup2"
+39-->/Users/billbai/Documents/GitHub/GreenTrail/app/src/main/AndroidManifest.xml:26:13-36
 40            android:exported="false" />
 40-->/Users/billbai/Documents/GitHub/GreenTrail/app/src/main/AndroidManifest.xml:27:13-37
 41        <activity
 41-->/Users/billbai/Documents/GitHub/GreenTrail/app/src/main/AndroidManifest.xml:28:9-30:40
-42            android:name="com.example.myapplication.AssignmentActivity"
-42-->/Users/billbai/Documents/GitHub/GreenTrail/app/src/main/AndroidManifest.xml:29:13-47
+42            android:name="com.example.myapplication.Signup"
+42-->/Users/billbai/Documents/GitHub/GreenTrail/app/src/main/AndroidManifest.xml:29:13-35
 43            android:exported="false" />
 43-->/Users/billbai/Documents/GitHub/GreenTrail/app/src/main/AndroidManifest.xml:30:13-37
 44        <activity
 44-->/Users/billbai/Documents/GitHub/GreenTrail/app/src/main/AndroidManifest.xml:31:9-33:40
-45            android:name="com.example.myapplication.LoginActivity"
-45-->/Users/billbai/Documents/GitHub/GreenTrail/app/src/main/AndroidManifest.xml:32:13-42
+45            android:name="com.example.myapplication.MyplantsFragment"
+45-->/Users/billbai/Documents/GitHub/GreenTrail/app/src/main/AndroidManifest.xml:32:13-45
 46            android:exported="false" />
 46-->/Users/billbai/Documents/GitHub/GreenTrail/app/src/main/AndroidManifest.xml:33:13-37
 47        <activity
-47-->/Users/billbai/Documents/GitHub/GreenTrail/app/src/main/AndroidManifest.xml:34:9-42:20
-48            android:name="com.example.myapplication.MainActivity"
-48-->/Users/billbai/Documents/GitHub/GreenTrail/app/src/main/AndroidManifest.xml:35:13-41
-49            android:exported="true" >
-49-->/Users/billbai/Documents/GitHub/GreenTrail/app/src/main/AndroidManifest.xml:36:13-36
-50            <intent-filter>
-50-->/Users/billbai/Documents/GitHub/GreenTrail/app/src/main/AndroidManifest.xml:37:13-41:29
-51                <action android:name="android.intent.action.MAIN" />
-51-->/Users/billbai/Documents/GitHub/GreenTrail/app/src/main/AndroidManifest.xml:38:17-69
-51-->/Users/billbai/Documents/GitHub/GreenTrail/app/src/main/AndroidManifest.xml:38:25-66
-52
-53                <category android:name="android.intent.category.LAUNCHER" />
-53-->/Users/billbai/Documents/GitHub/GreenTrail/app/src/main/AndroidManifest.xml:40:17-77
-53-->/Users/billbai/Documents/GitHub/GreenTrail/app/src/main/AndroidManifest.xml:40:27-74
-54            </intent-filter>
-55        </activity>
-56
-57        <provider
-57-->[androidx.emoji2:emoji2:1.2.0] /Users/billbai/.gradle/caches/transforms-3/9f99c19470d8bf18ee15270d078c3173/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
-58            android:name="androidx.startup.InitializationProvider"
-58-->[androidx.emoji2:emoji2:1.2.0] /Users/billbai/.gradle/caches/transforms-3/9f99c19470d8bf18ee15270d078c3173/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
-59            android:authorities="com.example.myapplication.androidx-startup"
-59-->[androidx.emoji2:emoji2:1.2.0] /Users/billbai/.gradle/caches/transforms-3/9f99c19470d8bf18ee15270d078c3173/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
-60            android:exported="false" >
-60-->[androidx.emoji2:emoji2:1.2.0] /Users/billbai/.gradle/caches/transforms-3/9f99c19470d8bf18ee15270d078c3173/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
-61            <meta-data
-61-->[androidx.emoji2:emoji2:1.2.0] /Users/billbai/.gradle/caches/transforms-3/9f99c19470d8bf18ee15270d078c3173/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
-62                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-62-->[androidx.emoji2:emoji2:1.2.0] /Users/billbai/.gradle/caches/transforms-3/9f99c19470d8bf18ee15270d078c3173/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
-63                android:value="androidx.startup" />
-63-->[androidx.emoji2:emoji2:1.2.0] /Users/billbai/.gradle/caches/transforms-3/9f99c19470d8bf18ee15270d078c3173/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
-64            <meta-data
-64-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/billbai/.gradle/caches/transforms-3/a68586d9ac6fc4872d4884a947d1c1d5/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
-65                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-65-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/billbai/.gradle/caches/transforms-3/a68586d9ac6fc4872d4884a947d1c1d5/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
-66                android:value="androidx.startup" />
-66-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/billbai/.gradle/caches/transforms-3/a68586d9ac6fc4872d4884a947d1c1d5/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
-67        </provider>
-68
-69        <uses-library
-69-->[androidx.window:window:1.0.0] /Users/billbai/.gradle/caches/transforms-3/44eb76c63a430958185cfd53aa9f79f1/transformed/window-1.0.0/AndroidManifest.xml:25:9-27:40
-70            android:name="androidx.window.extensions"
-70-->[androidx.window:window:1.0.0] /Users/billbai/.gradle/caches/transforms-3/44eb76c63a430958185cfd53aa9f79f1/transformed/window-1.0.0/AndroidManifest.xml:26:13-54
-71            android:required="false" />
-71-->[androidx.window:window:1.0.0] /Users/billbai/.gradle/caches/transforms-3/44eb76c63a430958185cfd53aa9f79f1/transformed/window-1.0.0/AndroidManifest.xml:27:13-37
-72        <uses-library
-72-->[androidx.window:window:1.0.0] /Users/billbai/.gradle/caches/transforms-3/44eb76c63a430958185cfd53aa9f79f1/transformed/window-1.0.0/AndroidManifest.xml:28:9-30:40
-73            android:name="androidx.window.sidecar"
-73-->[androidx.window:window:1.0.0] /Users/billbai/.gradle/caches/transforms-3/44eb76c63a430958185cfd53aa9f79f1/transformed/window-1.0.0/AndroidManifest.xml:29:13-51
-74            android:required="false" />
-74-->[androidx.window:window:1.0.0] /Users/billbai/.gradle/caches/transforms-3/44eb76c63a430958185cfd53aa9f79f1/transformed/window-1.0.0/AndroidManifest.xml:30:13-37
-75    </application>
-76
-77</manifest>
+47-->/Users/billbai/Documents/GitHub/GreenTrail/app/src/main/AndroidManifest.xml:34:9-36:40
+48            android:name="com.example.myapplication.MonmentsFragment"
+48-->/Users/billbai/Documents/GitHub/GreenTrail/app/src/main/AndroidManifest.xml:35:13-45
+49            android:exported="false" />
+49-->/Users/billbai/Documents/GitHub/GreenTrail/app/src/main/AndroidManifest.xml:36:13-37
+50        <activity
+50-->/Users/billbai/Documents/GitHub/GreenTrail/app/src/main/AndroidManifest.xml:37:9-39:40
+51            android:name="com.example.myapplication.ProfileFragment"
+51-->/Users/billbai/Documents/GitHub/GreenTrail/app/src/main/AndroidManifest.xml:38:13-44
+52            android:exported="false" />
+52-->/Users/billbai/Documents/GitHub/GreenTrail/app/src/main/AndroidManifest.xml:39:13-37
+53        <activity
+53-->/Users/billbai/Documents/GitHub/GreenTrail/app/src/main/AndroidManifest.xml:40:9-42:40
+54            android:name="com.example.myapplication.MapFragment"
+54-->/Users/billbai/Documents/GitHub/GreenTrail/app/src/main/AndroidManifest.xml:41:13-40
+55            android:exported="false" />
+55-->/Users/billbai/Documents/GitHub/GreenTrail/app/src/main/AndroidManifest.xml:42:13-37
+56        <activity
+56-->/Users/billbai/Documents/GitHub/GreenTrail/app/src/main/AndroidManifest.xml:43:9-45:40
+57            android:name="com.example.myapplication.ForumFragment"
+57-->/Users/billbai/Documents/GitHub/GreenTrail/app/src/main/AndroidManifest.xml:44:13-42
+58            android:exported="false" />
+58-->/Users/billbai/Documents/GitHub/GreenTrail/app/src/main/AndroidManifest.xml:45:13-37
+59        <activity
+59-->/Users/billbai/Documents/GitHub/GreenTrail/app/src/main/AndroidManifest.xml:46:9-48:40
+60            android:name="com.example.myapplication.HomeFragment"
+60-->/Users/billbai/Documents/GitHub/GreenTrail/app/src/main/AndroidManifest.xml:47:13-41
+61            android:exported="false" />
+61-->/Users/billbai/Documents/GitHub/GreenTrail/app/src/main/AndroidManifest.xml:48:13-37
+62        <activity
+62-->/Users/billbai/Documents/GitHub/GreenTrail/app/src/main/AndroidManifest.xml:49:9-51:40
+63            android:name="com.example.myapplication.AssignmentActivity"
+63-->/Users/billbai/Documents/GitHub/GreenTrail/app/src/main/AndroidManifest.xml:50:13-47
+64            android:exported="false" />
+64-->/Users/billbai/Documents/GitHub/GreenTrail/app/src/main/AndroidManifest.xml:51:13-37
+65        <activity
+65-->/Users/billbai/Documents/GitHub/GreenTrail/app/src/main/AndroidManifest.xml:52:9-54:40
+66            android:name="com.example.myapplication.LoginActivity"
+66-->/Users/billbai/Documents/GitHub/GreenTrail/app/src/main/AndroidManifest.xml:53:13-42
+67            android:exported="false" />
+67-->/Users/billbai/Documents/GitHub/GreenTrail/app/src/main/AndroidManifest.xml:54:13-37
+68        <activity
+68-->/Users/billbai/Documents/GitHub/GreenTrail/app/src/main/AndroidManifest.xml:55:9-63:20
+69            android:name="com.example.myapplication.MainActivity"
+69-->/Users/billbai/Documents/GitHub/GreenTrail/app/src/main/AndroidManifest.xml:56:13-41
+70            android:exported="true" >
+70-->/Users/billbai/Documents/GitHub/GreenTrail/app/src/main/AndroidManifest.xml:57:13-36
+71            <intent-filter>
+71-->/Users/billbai/Documents/GitHub/GreenTrail/app/src/main/AndroidManifest.xml:58:13-62:29
+72                <action android:name="android.intent.action.MAIN" />
+72-->/Users/billbai/Documents/GitHub/GreenTrail/app/src/main/AndroidManifest.xml:59:17-69
+72-->/Users/billbai/Documents/GitHub/GreenTrail/app/src/main/AndroidManifest.xml:59:25-66
+73
+74                <category android:name="android.intent.category.LAUNCHER" />
+74-->/Users/billbai/Documents/GitHub/GreenTrail/app/src/main/AndroidManifest.xml:61:17-77
+74-->/Users/billbai/Documents/GitHub/GreenTrail/app/src/main/AndroidManifest.xml:61:27-74
+75            </intent-filter>
+76        </activity>
+77
+78        <meta-data
+78-->/Users/billbai/Documents/GitHub/GreenTrail/app/src/main/AndroidManifest.xml:65:9-67:57
+79            android:name="preloaded_fonts"
+79-->/Users/billbai/Documents/GitHub/GreenTrail/app/src/main/AndroidManifest.xml:66:13-43
+80            android:resource="@array/preloaded_fonts" />
+80-->/Users/billbai/Documents/GitHub/GreenTrail/app/src/main/AndroidManifest.xml:67:13-54
+81
+82        <provider
+82-->[com.squareup.picasso:picasso:2.71828] /Users/billbai/.gradle/caches/transforms-3/463ab7256afb3b584e41185fe9baecc7/transformed/picasso-2.71828/AndroidManifest.xml:8:9-11:40
+83            android:name="com.squareup.picasso.PicassoProvider"
+83-->[com.squareup.picasso:picasso:2.71828] /Users/billbai/.gradle/caches/transforms-3/463ab7256afb3b584e41185fe9baecc7/transformed/picasso-2.71828/AndroidManifest.xml:9:13-64
+84            android:authorities="com.example.myapplication.com.squareup.picasso"
+84-->[com.squareup.picasso:picasso:2.71828] /Users/billbai/.gradle/caches/transforms-3/463ab7256afb3b584e41185fe9baecc7/transformed/picasso-2.71828/AndroidManifest.xml:10:13-72
+85            android:exported="false" />
+85-->[com.squareup.picasso:picasso:2.71828] /Users/billbai/.gradle/caches/transforms-3/463ab7256afb3b584e41185fe9baecc7/transformed/picasso-2.71828/AndroidManifest.xml:11:13-37
+86
+87        <activity
+87-->[com.google.android.gms:play-services-base:18.1.0] /Users/billbai/.gradle/caches/transforms-3/e5cf4090f0fcca1ba3d3d2dd9bd3635c/transformed/play-services-base-18.1.0/AndroidManifest.xml:20:9-22:45
+88            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+88-->[com.google.android.gms:play-services-base:18.1.0] /Users/billbai/.gradle/caches/transforms-3/e5cf4090f0fcca1ba3d3d2dd9bd3635c/transformed/play-services-base-18.1.0/AndroidManifest.xml:20:19-85
+89            android:exported="false"
+89-->[com.google.android.gms:play-services-base:18.1.0] /Users/billbai/.gradle/caches/transforms-3/e5cf4090f0fcca1ba3d3d2dd9bd3635c/transformed/play-services-base-18.1.0/AndroidManifest.xml:22:19-43
+90            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+90-->[com.google.android.gms:play-services-base:18.1.0] /Users/billbai/.gradle/caches/transforms-3/e5cf4090f0fcca1ba3d3d2dd9bd3635c/transformed/play-services-base-18.1.0/AndroidManifest.xml:21:19-78
+91
+92        <meta-data
+92-->[com.google.android.gms:play-services-basement:18.1.0] /Users/billbai/.gradle/caches/transforms-3/ba327b2ffef2528293b4723beca11963/transformed/play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+93            android:name="com.google.android.gms.version"
+93-->[com.google.android.gms:play-services-basement:18.1.0] /Users/billbai/.gradle/caches/transforms-3/ba327b2ffef2528293b4723beca11963/transformed/play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+94            android:value="@integer/google_play_services_version" />
+94-->[com.google.android.gms:play-services-basement:18.1.0] /Users/billbai/.gradle/caches/transforms-3/ba327b2ffef2528293b4723beca11963/transformed/play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+95
+96        <provider
+96-->[androidx.emoji2:emoji2:1.2.0] /Users/billbai/.gradle/caches/transforms-3/9f99c19470d8bf18ee15270d078c3173/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+97            android:name="androidx.startup.InitializationProvider"
+97-->[androidx.emoji2:emoji2:1.2.0] /Users/billbai/.gradle/caches/transforms-3/9f99c19470d8bf18ee15270d078c3173/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+98            android:authorities="com.example.myapplication.androidx-startup"
+98-->[androidx.emoji2:emoji2:1.2.0] /Users/billbai/.gradle/caches/transforms-3/9f99c19470d8bf18ee15270d078c3173/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+99            android:exported="false" >
+99-->[androidx.emoji2:emoji2:1.2.0] /Users/billbai/.gradle/caches/transforms-3/9f99c19470d8bf18ee15270d078c3173/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+100            <meta-data
+100-->[androidx.emoji2:emoji2:1.2.0] /Users/billbai/.gradle/caches/transforms-3/9f99c19470d8bf18ee15270d078c3173/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+101                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+101-->[androidx.emoji2:emoji2:1.2.0] /Users/billbai/.gradle/caches/transforms-3/9f99c19470d8bf18ee15270d078c3173/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+102                android:value="androidx.startup" />
+102-->[androidx.emoji2:emoji2:1.2.0] /Users/billbai/.gradle/caches/transforms-3/9f99c19470d8bf18ee15270d078c3173/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+103            <meta-data
+103-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/billbai/.gradle/caches/transforms-3/a68586d9ac6fc4872d4884a947d1c1d5/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+104                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+104-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/billbai/.gradle/caches/transforms-3/a68586d9ac6fc4872d4884a947d1c1d5/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+105                android:value="androidx.startup" />
+105-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/billbai/.gradle/caches/transforms-3/a68586d9ac6fc4872d4884a947d1c1d5/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+106        </provider>
+107
+108        <uses-library
+108-->[androidx.window:window:1.0.0] /Users/billbai/.gradle/caches/transforms-3/44eb76c63a430958185cfd53aa9f79f1/transformed/window-1.0.0/AndroidManifest.xml:25:9-27:40
+109            android:name="androidx.window.extensions"
+109-->[androidx.window:window:1.0.0] /Users/billbai/.gradle/caches/transforms-3/44eb76c63a430958185cfd53aa9f79f1/transformed/window-1.0.0/AndroidManifest.xml:26:13-54
+110            android:required="false" />
+110-->[androidx.window:window:1.0.0] /Users/billbai/.gradle/caches/transforms-3/44eb76c63a430958185cfd53aa9f79f1/transformed/window-1.0.0/AndroidManifest.xml:27:13-37
+111        <uses-library
+111-->[androidx.window:window:1.0.0] /Users/billbai/.gradle/caches/transforms-3/44eb76c63a430958185cfd53aa9f79f1/transformed/window-1.0.0/AndroidManifest.xml:28:9-30:40
+112            android:name="androidx.window.sidecar"
+112-->[androidx.window:window:1.0.0] /Users/billbai/.gradle/caches/transforms-3/44eb76c63a430958185cfd53aa9f79f1/transformed/window-1.0.0/AndroidManifest.xml:29:13-51
+113            android:required="false" />
+113-->[androidx.window:window:1.0.0] /Users/billbai/.gradle/caches/transforms-3/44eb76c63a430958185cfd53aa9f79f1/transformed/window-1.0.0/AndroidManifest.xml:30:13-37
+114    </application>
+115
+116</manifest>
